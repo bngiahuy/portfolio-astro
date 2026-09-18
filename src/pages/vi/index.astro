@@ -1,0 +1,28 @@
+---
+import Header from "../../components/Header.astro";
+import Hero from "../../components/Hero.astro";
+import About from "../../components/About.astro";
+import Projects from "../../components/Projects.astro";
+import Experience from "../../components/Experience.astro";
+import Education from "../../components/Education.astro";
+import Footer from "../../components/Footer.astro";
+import { getSiteConfig } from "../../config";
+import "../../styles/global.css";
+const c = getSiteConfig("/vi/");
+---
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={c.description} />
+    <meta property="og:title" content={`${c.name} - ${c.title}`} />
+    <meta property="og:description" content={c.description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate" hreflang="en" href="/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <title>{c.name} - {c.title}</title>
+  </head>
+  <body><Header /><section><Hero /><About /><Projects /><Experience /><Education /></section><Footer /></body>
+</html>
