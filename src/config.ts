@@ -98,10 +98,12 @@ export const siteConfigs = {
     experience: [{
       company: "HPT Vietnam Corporation", title: "Software Solution Engineer", dateRange: "2024–Present",
       bullets: [
-        "Work directly with customers on site surveys, requirements, architecture, sizing, proposals, presentations, demos, and proofs of concept.",
-        "Serve as the sole engineering interface with the Taiwan-based AIWINOPS vendor, reproducing incidents, coordinating fixes, proposing features, and developing technical material in English.",
-        "Design backend services, plugins, extensions, and integrations connecting AI products with third-party Video Management Systems and customer environments.",
-        "Support deployed systems across Linux, networking, RTSP and video pipelines, backend integrations, and data flows.",
+        "Translate ambiguous customer needs through discovery, on-site surveys, architecture, sizing, proposals, demos, and proofs of concept.",
+        "Own the technical relationship with AIWINOPS as the sole engineering interface; communicate in English, reproduce incidents, coordinate fixes, propose features, and co-develop solution and case-study materials.",
+        "Design backend services, plugins, and extensions that connect AI products to third-party Video Management Systems and customer environments.",
+        "Maintain deployment architecture, sizing guidance, technical documentation, and product knowledge.",
+        "Resolve post-sales issues across Linux, networking, RTSP/video pipelines, backend integrations, and deployed AI systems.",
+        "Guide interns and fresh graduates through implementation and debugging.",
       ],
     }],
     education: [
@@ -173,10 +175,12 @@ export const siteConfigs = {
     experience: [{
       company: "HPT Vietnam Corporation", title: "Kỹ sư Giải pháp Phần mềm", dateRange: "2024 đến nay",
       bullets: [
-        "Làm việc trực tiếp với khách hàng trong quá trình khảo sát, xác định yêu cầu kỹ thuật, thiết kế kiến trúc, sizing, xây dựng đề xuất, trình bày, demo và thực hiện PoC.",
-        "Là đầu mối kỹ thuật duy nhất làm việc với vendor AIWINOPS tại Đài Loan, tái hiện lỗi, phối hợp xử lý, đề xuất tính năng và xây dựng tài liệu kỹ thuật bằng tiếng Anh.",
-        "Thiết kế backend service, plugin, extension và các phần tích hợp giữa sản phẩm AI, Video Management System của bên thứ ba và môi trường khách hàng.",
-        "Hỗ trợ các hệ thống đã triển khai trên Linux, networking, luồng RTSP và video, tích hợp backend và luồng dữ liệu.",
+        "Chuyển nhu cầu chưa rõ của khách hàng thành yêu cầu kỹ thuật, kiến trúc, sizing, đề xuất và PoC thông qua khảo sát tại hiện trường.",
+        "Làm đầu mối kỹ thuật duy nhất với vendor AIWINOPS tại Đài Loan: trao đổi bằng tiếng Anh, tái hiện sự cố, phối hợp xử lý, đề xuất tính năng và cùng xây dựng tài liệu giải pháp, case study.",
+        "Thiết kế backend service, plugin và extension kết nối sản phẩm AI với Video Management System bên thứ ba và môi trường khách hàng.",
+        "Duy trì kiến trúc triển khai, hướng dẫn sizing, tài liệu kỹ thuật và kiến thức sản phẩm.",
+        "Xử lý ticket hậu mãi trên Linux, networking, luồng RTSP/video, backend service và các hệ thống AI đã triển khai.",
+        "Hướng dẫn intern và fresher trong quá trình triển khai và debug.",
       ],
     }],
     education: [
