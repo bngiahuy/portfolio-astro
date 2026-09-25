@@ -156,13 +156,13 @@ Technical support documents were spread across different sources, which made rel
 
 **Outcome:**
 
-During internal testing, fast mode returned responses in about 5 seconds on average. Agent mode took 20 to 30 seconds when a query required a deeper retrieval workflow.
+During the internal demo, fast mode returned responses in about 5 seconds on average.
 
 **Extended case-study copy:**
 
 I owned the project end to end as a team of one. The system combined document ingestion, retrieval components, LLM APIs, application logic, and a FastAPI backend. I used hybrid retrieval, multimodal RAG, reranking, and agentic workflows to support different query types while keeping response time practical.
 
-Internal testing measured roughly 5 seconds per response in fast mode and 20–30 seconds in agent mode.
+The internal demo measured roughly 5 seconds per response in fast mode.
 
 **Technology labels:**
 
