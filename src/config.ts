@@ -53,7 +53,7 @@ export const siteConfigs = {
     ],
     alternatePath: "/vi/",
     alternateLabel: "VI",
-    labels: { about: "About Me", projects: "Projects", experience: "Experience", education: "Education", resume: "Résumé", rights: "All rights reserved." },
+    labels: { about: "About Me", projects: "Projects", experience: "Experience", education: "Education", resume: "Résumé", rights: "All rights reserved.", problem: "Problem", role: "My role", outcome: "Outcome / learning", constraints: "Constraints", technologies: "Technologies", externalLink: "View product", newTab: "Opens in a new tab" },
     aboutMe: "I’m a Software Solution Engineer at HPT Vietnam Corporation in Ho Chi Minh City, focused on applied AI and systems engineering. I help turn operational problems into deployable solutions across computer vision, AI assistants, backend services, video systems, Linux, and industrial integrations. My work spans requirements, architecture, implementation, deployment, debugging, and handover.",
     capabilities: [
       { name: "Applied AI", description: "Build retrieval and vision systems around concrete operational problems.", items: ["Computer Vision", "RAG / Retrieval Systems", "Multimodal RAG", "AI Agents"] },
@@ -128,7 +128,7 @@ export const siteConfigs = {
     ],
     alternatePath: "/",
     alternateLabel: "EN",
-    labels: { about: "Về tôi", projects: "Dự án", experience: "Kinh nghiệm", education: "Học vấn", resume: "Tải CV", rights: "Bảo lưu mọi quyền." },
+    labels: { about: "Về tôi", projects: "Dự án", experience: "Kinh nghiệm", education: "Học vấn", resume: "Tải CV", rights: "Bảo lưu mọi quyền.", problem: "Bài toán", role: "Vai trò của tôi", outcome: "Kết quả / bài học", constraints: "Ràng buộc", technologies: "Công nghệ", externalLink: "Xem sản phẩm", newTab: "Mở trong tab mới" },
     aboutMe: "Tôi là Kỹ sư Giải pháp Phần mềm tại HPT Vietnam Corporation ở TP. Hồ Chí Minh, tập trung vào applied AI và kỹ thuật hệ thống. Tôi chuyển các bài toán vận hành thành giải pháp có thể triển khai trên computer vision, trợ lý AI, backend service, video system, Linux và tích hợp công nghiệp. Công việc của tôi bao gồm làm rõ yêu cầu, kiến trúc, triển khai, xử lý lỗi và bàn giao.",
     capabilities: [
       { name: "Applied AI", description: "Xây dựng hệ thống retrieval và computer vision xoay quanh bài toán vận hành cụ thể.", items: ["Computer Vision", "RAG / Retrieval Systems", "Multimodal RAG", "AI Agents"] },
