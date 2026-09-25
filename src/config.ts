@@ -39,7 +39,6 @@ export const siteConfigs = {
     name: "Bui Nguyen Gia Huy",
     title: "AI Systems Engineer | Industrial AI, Computer Vision & Edge",
     description: "Portfolio of Bui Nguyen Gia Huy, a Software Solution Engineer working across applied AI, computer vision, backend development, and system integration.",
-    greeting: "Hello! 👋",
     hero: {
       eyebrow: "Bui Nguyen Gia Huy · Software Solution Engineer",
       statement: "I build AI systems that have to survive outside the notebook.",
@@ -54,7 +53,7 @@ export const siteConfigs = {
     ],
     alternatePath: "/vi/",
     alternateLabel: "VI",
-    labels: { about: "About Me", projects: "Projects", experience: "Experience", education: "Education", resume: "Résumé", intro: "I'm", rights: "All rights reserved." },
+    labels: { about: "About Me", projects: "Projects", experience: "Experience", education: "Education", resume: "Résumé", rights: "All rights reserved." },
     aboutMe: "I’m a Software Solution Engineer at HPT Vietnam Corporation in Ho Chi Minh City, focused on applied AI and systems engineering. I help turn operational problems into deployable solutions across computer vision, AI assistants, backend services, video systems, Linux, and industrial integrations. My work spans requirements, architecture, implementation, deployment, debugging, and handover.",
     capabilities: [
       { name: "Applied AI", description: "Build retrieval and vision systems around concrete operational problems.", items: ["Computer Vision", "RAG / Retrieval Systems", "Multimodal RAG", "AI Agents"] },
@@ -62,7 +61,6 @@ export const siteConfigs = {
       { name: "Backend & Integration", description: "Connect AI outputs to APIs, databases, products, and third-party systems.", items: ["FastAPI", "Kotlin / Spring Boot", "PostgreSQL / Redis", "APIs / Plugins / VMS"] },
       { name: "Infrastructure & Deployment", description: "Deploy and debug across Linux, containers, networking, and video streams.", items: ["Linux", "Docker", "Networking", "Nginx / CI/CD"] },
     ],
-    skills: ["Python", "RAG", "Computer Vision", "FastAPI", "Kotlin / Spring Boot", "PostgreSQL", "OpenVINO", "ONNX", "Docker", "Linux", "RTSP", "Networking"],
     projects: [
       {
         name: "Technical Support AI Assistant",
@@ -116,7 +114,6 @@ export const siteConfigs = {
     name: "Bùi Nguyễn Gia Huy",
     title: "Kỹ sư Hệ thống AI | Industrial AI, Computer Vision & Edge",
     description: "Portfolio của Bùi Nguyễn Gia Huy, kỹ sư giải pháp phần mềm làm việc với applied AI, thị giác máy tính, backend và tích hợp hệ thống.",
-    greeting: "Xin chào! 👋",
     hero: {
       eyebrow: "Bùi Nguyễn Gia Huy · Kỹ sư Giải pháp Phần mềm",
       statement: "Tôi xây dựng các hệ thống AI phải hoạt động được ngoài môi trường notebook.",
@@ -131,7 +128,7 @@ export const siteConfigs = {
     ],
     alternatePath: "/",
     alternateLabel: "EN",
-    labels: { about: "Về tôi", projects: "Dự án", experience: "Kinh nghiệm", education: "Học vấn", resume: "Tải CV", intro: "Tôi là", rights: "Bảo lưu mọi quyền." },
+    labels: { about: "Về tôi", projects: "Dự án", experience: "Kinh nghiệm", education: "Học vấn", resume: "Tải CV", rights: "Bảo lưu mọi quyền." },
     aboutMe: "Tôi là Kỹ sư Giải pháp Phần mềm tại HPT Vietnam Corporation ở TP. Hồ Chí Minh, tập trung vào applied AI và kỹ thuật hệ thống. Tôi chuyển các bài toán vận hành thành giải pháp có thể triển khai trên computer vision, trợ lý AI, backend service, video system, Linux và tích hợp công nghiệp. Công việc của tôi bao gồm làm rõ yêu cầu, kiến trúc, triển khai, xử lý lỗi và bàn giao.",
     capabilities: [
       { name: "Applied AI", description: "Xây dựng hệ thống retrieval và computer vision xoay quanh bài toán vận hành cụ thể.", items: ["Computer Vision", "RAG / Retrieval Systems", "Multimodal RAG", "AI Agents"] },
@@ -139,7 +136,6 @@ export const siteConfigs = {
       { name: "Backend & Integration", description: "Kết nối đầu ra AI với API, database, sản phẩm và hệ thống bên thứ ba.", items: ["FastAPI", "Kotlin / Spring Boot", "PostgreSQL / Redis", "APIs / Plugins / VMS"] },
       { name: "Infrastructure & Deployment", description: "Triển khai và debug trên Linux, container, network và luồng video.", items: ["Linux", "Docker", "Networking", "Nginx / CI/CD"] },
     ],
-    skills: ["Python", "RAG", "Computer Vision", "FastAPI", "Kotlin / Spring Boot", "PostgreSQL", "OpenVINO", "ONNX", "Docker", "Linux", "RTSP", "Networking"],
     projects: [
       {
         name: "Trợ lý AI cho Hỗ trợ Kỹ thuật",
