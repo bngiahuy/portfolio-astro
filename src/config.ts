@@ -6,11 +6,6 @@ export type CapabilityGroup = {
   items: string[];
 };
 
-export type ProofMetric = {
-  value: string;
-  label: string;
-};
-
 export type Project = {
   name: string;
   summary: string;
@@ -49,11 +44,6 @@ export const siteConfigs = {
       primaryCta: "View work",
       secondaryCta: "Résumé",
     },
-    proofMetrics: [
-      { value: "~50", label: "Computer vision use cases consulted across factory sites" },
-      { value: "15 FPS", label: "CPU-only inference on a 12th-gen Intel Core i5" },
-      { value: "5 s", label: "Average fast-mode latency in an internal demo" },
-    ],
     alternatePath: "/vi/",
     alternateLabel: "VI",
     labels: { about: "About Me", projects: "Projects", experience: "Experience", education: "Education", resume: "Résumé", rights: "All rights reserved.", problem: "Problem", role: "My role", outcome: "Outcome / learning", constraints: "Constraints", technologies: "Technologies", externalLink: "View product", newTab: "Opens in a new tab" },
@@ -76,13 +66,13 @@ export const siteConfigs = {
         skills: ["Python", "FastAPI", "Hybrid RAG", "Multimodal RAG", "AI Agents"],
       },
       {
-        name: "Computer Vision for Manufacturing",
-        summary: "A customer computer-vision PoC from requirements through on-site testing, using CPU-only inference.",
-        problem: "Evaluate visual inspection under factory conditions and constrained edge compute.",
+        name: "Computer Vision Application at an Ice Cream Manufacturing Plant",
+        summary: "Detected logos only a few dozen pixels wide on cartons using the customer’s existing CCTV system.",
+        problem: "Recognize small carton logos through existing CCTV in a production environment.",
         role: "Consulted on nearly 50 computer-vision use cases across factory sites and delivered this customer PoC with a two-person team, from requirements and data collection through model training, web app integration, Linux deployment, and on-site iteration.",
-        outcome: "CPU-only inference sustained 15 FPS on a 12th-gen Intel Core i5. Field conditions increased false detections, so the pilot did not meet requirements.",
-        constraints: ["CPU-only inference", "Field issues involved camera quality, compression, perspective, and environmental conditions"],
-        description: "A customer computer-vision PoC from requirements through on-site testing, using CPU-only inference. The pipeline sustained 15 FPS on a 12th-gen Intel Core i5; field conditions increased false detections, so the pilot did not meet requirements.",
+        outcome: "With two cameras, a CPU-only server using a 12th-gen Intel Core i5 sustained 15 FPS. Under field conditions, accuracy was at least 83% and response time was under 150 ms, but the PoC did not meet its requirement of at least 95% accuracy.",
+        constraints: ["Logos only a few dozen pixels wide", "Customer’s existing CCTV system", "Two cameras", "CPU-only server using a 12th-gen Intel Core i5", "Field issues involved camera quality, compression, perspective, and environmental conditions", "Bitrate capped at 1024 Kbps, which was low and often caused blurring", "Two Full HD cameras running simultaneously at a minimum of over 5 FPS"],
+        description: "A computer-vision PoC to detect logos only a few dozen pixels wide on cartons using the customer’s existing CCTV system. A CPU-only server with a 12th-gen Intel Core i5 sustained 15 FPS while processing two cameras. Under field conditions, accuracy was at least 83% and response time was under 150 ms; the PoC missed its requirement of at least 95% accuracy.",
         link: "",
         skills: ["RF-DETR", "YOLO", "OpenVINO", "OpenCV", "Docker", "Debian"],
       },
@@ -127,14 +117,9 @@ export const siteConfigs = {
       primaryCta: "Xem dự án",
       secondaryCta: "Tải CV",
     },
-    proofMetrics: [
-      { value: "Gần 50", label: "Bài toán computer vision được tư vấn tại các nhà máy" },
-      { value: "15 FPS", label: "Inference chỉ dùng CPU trên Intel Core i5 thế hệ 12" },
-      { value: "5 giây", label: "Latency trung bình ở chế độ nhanh trong demo nội bộ" },
-    ],
     alternatePath: "/",
     alternateLabel: "EN",
-    labels: { about: "Về tôi", projects: "Dự án", experience: "Kinh nghiệm", education: "Học vấn", resume: "Tải CV", rights: "Bảo lưu mọi quyền.", problem: "Bài toán", role: "Vai trò của tôi", outcome: "Kết quả / bài học", constraints: "Ràng buộc", technologies: "Công nghệ", externalLink: "Xem sản phẩm", newTab: "Mở trong tab mới" },
+    labels: { about: "Về tôi", projects: "Dự án", experience: "Kinh nghiệm", education: "Học vấn", resume: "Tải CV", rights: "All Rights Reserved.", problem: "Bài toán", role: "Vai trò của tôi", outcome: "Kết quả / bài học", constraints: "Ràng buộc", technologies: "Công nghệ", externalLink: "Xem sản phẩm", newTab: "Mở trong tab mới" },
     aboutMe: "Tôi là Kỹ sư Giải pháp Phần mềm tại HPT Vietnam Corporation ở TP. Hồ Chí Minh, tập trung vào applied AI và kỹ thuật hệ thống. Tôi chuyển các bài toán vận hành thành giải pháp có thể triển khai trên computer vision, trợ lý AI, backend service, video system, Linux và tích hợp công nghiệp. Công việc của tôi bao gồm làm rõ yêu cầu, kiến trúc, triển khai, xử lý lỗi và bàn giao.",
     capabilities: [
       { name: "Applied AI", description: "Xây dựng hệ thống retrieval và computer vision xoay quanh bài toán vận hành cụ thể.", items: ["Computer Vision", "RAG / Retrieval Systems", "Multimodal RAG", "AI Agents"] },
@@ -154,13 +139,13 @@ export const siteConfigs = {
         skills: ["Python", "FastAPI", "Hybrid RAG", "Multimodal RAG", "AI Agents"],
       },
       {
-        name: "Ứng dụng Thị giác Máy tính trong Nhà máy",
-        summary: "PoC computer vision cho khách hàng từ làm rõ yêu cầu đến kiểm thử tại hiện trường, dùng inference chỉ bằng CPU.",
-        problem: "Đánh giá việc kiểm tra hình ảnh trong điều kiện nhà máy và giới hạn edge compute.",
+        name: "Ứng dụng Thị giác Máy tính trong Nhà máy Sản xuất Kem Lạnh",
+        summary: "Nhận diện logo chỉ rộng vài chục pixel trên thùng hàng qua hệ thống CCTV hiện hữu của khách hàng.",
+        problem: "Nhận diện logo nhỏ trên thùng hàng qua hệ thống CCTV hiện hữu trong môi trường sản xuất.",
         role: "Tư vấn gần 50 bài toán computer vision tại nhiều khu vực nhà máy và cùng một thành viên khác triển khai PoC này, từ yêu cầu, dữ liệu, huấn luyện model đến web app, Linux và kiểm thử tại hiện trường.",
-        outcome: "Inference chỉ dùng CPU duy trì 15 FPS trên Intel Core i5 thế hệ 12. Điều kiện thực tế làm tăng false detection nên pilot không đạt yêu cầu.",
-        constraints: ["Inference chỉ dùng CPU", "Vấn đề hiện trường liên quan đến chất lượng camera, nén video, góc nhìn và điều kiện môi trường"],
-        description: "PoC computer vision cho khách hàng từ làm rõ yêu cầu đến kiểm thử tại hiện trường, dùng inference chỉ bằng CPU. Pipeline duy trì 15 FPS trên Intel Core i5 thế hệ 12; điều kiện thực tế làm tăng false detection nên pilot không đạt yêu cầu.",
+        outcome: "Với hai camera, server chỉ dùng CPU Intel Core i5 thế hệ 12 duy trì 15 FPS. Trong điều kiện thực tế, độ chính xác đạt ít nhất 83% và thời gian phản hồi dưới 150 ms; tuy nhiên, PoC không đạt yêu cầu độ chính xác tối thiểu 95%.",
+        constraints: ["Logo chỉ rộng vài chục pixel", "Hệ thống CCTV hiện hữu của khách hàng", "Hai camera", "Server chỉ dùng CPU trên Intel Core i5 thế hệ 12", "Vấn đề hiện trường liên quan đến chất lượng camera, nén video, góc nhìn và điều kiện môi trường", "Bitrate tối đa 1024 Kbps, khá thấp và hình ảnh thường bị nhòe", "Chạy đồng thời hai camera Full HD, tối thiểu trên 5 FPS"],
+        description: "PoC nhận diện logo chỉ rộng vài chục pixel trên thùng hàng qua hệ thống CCTV hiện hữu của khách hàng. Server chỉ dùng CPU Intel Core i5 thế hệ 12 duy trì 15 FPS khi xử lý hai camera. Trong điều kiện thực tế, độ chính xác đạt ít nhất 83% và thời gian phản hồi dưới 150 ms; PoC không đạt yêu cầu độ chính xác tối thiểu 95%.",
         link: "",
         skills: ["RF-DETR", "YOLO", "OpenVINO", "OpenCV", "Docker", "Debian"],
       },

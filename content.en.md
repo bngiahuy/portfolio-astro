@@ -88,29 +88,7 @@ I am open to suitable opportunities in Applied AI and Software Engineering.
 
 ---
 
-## 4. Proof Points
-
-### Proof point 1
-
-**Value:** ~50
-
-**Label:** Computer-vision use cases consulted across factory sites
-
-### Proof point 2
-
-**Value:** 15 FPS
-
-**Label:** CPU-only inference on a 12th-generation Intel Core i5
-
-### Proof point 3
-
-**Value:** 5 seconds
-
-**Label:** Average fast-mode latency in the internal demo
-
----
-
-## 5. About
+## 4. About
 
 ### Section heading
 
@@ -134,7 +112,7 @@ Ho Chi Minh City, Vietnam
 
 ---
 
-## 6. Selected Work
+## 5. Selected Work
 
 ### Section heading
 
@@ -189,21 +167,26 @@ Public documentation and images will be added after sensitive information has be
 
 **Display label:** Team of 2 | Customer PoC | Computer Vision
 
-**Title:** Computer Vision for Manufacturing
+**Title:** Computer Vision Application at an Ice Cream Manufacturing Plant
 
 **Short description:**
 
-The model was one part of the project. The rest involved requirements, data collection, camera quality, video compression, perspective, deployment, and repeated on-site testing.
+The PoC recognized logos only a few dozen pixels wide on cartons through the customer’s existing CCTV system. It processed two camera feeds using a CPU-only server with a 12th-gen Intel Core i5.
 
 **Outcome:**
 
-A CPU-only inference pipeline sustained 15 FPS on a 12th-generation Intel Core i5. The field pilot did not meet its requirements after on-site conditions increased false detections.
+With two cameras, a CPU-only server using a 12th-gen Intel Core i5 sustained 15 FPS. Under field conditions, accuracy was at least 83% and response time was under 150 ms, but the PoC did not meet its requirement of at least 95% accuracy.
+
+**Constraints:**
+
+- Maximum bitrate of 1024 Kbps; low bitrate often caused blurring.
+- Two Full HD cameras running simultaneously at a minimum of over 5 FPS.
 
 **Extended case-study copy:**
 
 I consulted on nearly 50 computer-vision use cases across multiple factory sites and helped deliver an end-to-end inspection proof of concept. The work covered requirements, data collection, model training, a web application, Linux deployment, and customer iteration.
 
-We investigated camera quality, video compression, viewing perspective, and environmental conditions to understand why inference results changed between development tests and the factory environment.
+We investigated camera quality, video compression, viewing perspective, and environmental conditions to understand field performance. The PoC reached at least 83% accuracy with response time under 150 ms, but fell short of its requirement of at least 95% accuracy.
 
 **Technology labels:**
 
@@ -264,7 +247,7 @@ The public product page is the source for information shown here.
 
 ---
 
-## 7. Experience
+## 6. Experience
 
 ### Section heading
 
@@ -306,7 +289,7 @@ https://hpt.vn/
 
 ---
 
-## 8. Skills
+## 7. Skills
 
 ### Section heading
 
@@ -371,7 +354,7 @@ These are the tools and technical areas I have used across my work. My level of 
 
 ---
 
-## 9. Education
+## 8. Education
 
 ### Section heading
 
@@ -408,7 +391,7 @@ Education
 
 ---
 
-## 10. Contact
+## 9. Contact
 
 ### Section heading
 
@@ -448,7 +431,7 @@ Download résumé
 
 ---
 
-## 11. Footer
+## 10. Footer
 
 ### Name
 
@@ -476,7 +459,7 @@ AI Systems Engineer focused on industrial AI and computer vision, based in Ho Ch
 
 ---
 
-## 12. Accessibility and Interface Labels
+## 11. Accessibility and Interface Labels
 
 ### Social links
 
@@ -487,7 +470,7 @@ AI Systems Engineer focused on industrial AI and computer vision, based in Ho Ch
 ### Project links
 
 - View the Technical Support AI Assistant case study
-- View the Industrial Computer Vision Inspection case study
+- View the Computer Vision Application at an Ice Cream Manufacturing Plant case study
 - View the HPT Smarttrak case study
 
 ### External-link indicator
@@ -518,7 +501,7 @@ Download Bui Nguyen Gia Huy’s résumé as a PDF
 
 ---
 
-## 13. Final Review Checklist
+## 12. Final Review Checklist
 
 - [ ] Rewrite any sentence that does not sound like me.
 - [ ] Confirm that the AI Systems Engineer positioning accurately reflects my work.

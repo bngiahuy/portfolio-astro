@@ -22,33 +22,30 @@ const hasProjects = siteConfig.projects.length > 0;
           {siteConfig.projects.map((project, index) => {
             const linkLabel = project.linkLabel || siteConfig.labels.externalLink;
             return (
-              <article class="rounded-xl border border-gray-200 bg-gray-50 p-4 sm:p-6 md:p-8">
-                <div class="flex flex-col gap-4">
-                  <div>
-                    <span class="text-sm font-mono" style={{ color: siteConfig.accentColor }}>
-                      0{index + 1}
-                    </span>
-                    <h3 class="mt-1 text-xl sm:text-2xl font-bold text-gray-900">
-                      {project.name}
-                    </h3>
-                    <p class="mt-2 text-base text-gray-600 leading-relaxed">
-                      {project.summary}
-                    </p>
-                  </div>
-                  {project.link && (
-                    <a
-                      href={project.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label={linkLabel + ": " + project.name + ". " + siteConfig.labels.newTab}
-                      class="inline-flex min-h-11 shrink-0 items-center gap-2 rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm font-semibold text-gray-800 hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2"
-                    >
-                      {linkLabel}
-                      <svg aria-hidden="true" class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7V17" />
-                      </svg>
-                    </a>
-                  )}
+              <article class="relative rounded-xl border border-gray-200 bg-gray-50 p-4 sm:p-6 md:p-8">
+                {project.link && (
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={linkLabel + ": " + project.name + ". " + siteConfig.labels.newTab}
+                    class="absolute right-4 top-4 inline-flex h-11 w-11 items-center justify-center rounded-lg border border-gray-300 bg-white text-gray-800 hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 sm:right-6 sm:top-6 md:right-8 md:top-8"
+                  >
+                    <svg aria-hidden="true" class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7V17" />
+                    </svg>
+                  </a>
+                )}
+                <div>
+                  <span class="text-sm font-mono" style={{ color: siteConfig.accentColor }}>
+                    0{index + 1}
+                  </span>
+                  <h3 class="mt-1 text-xl sm:text-2xl font-bold text-gray-900">
+                    {project.name}
+                  </h3>
+                  <p class="mt-2 text-base text-gray-600 leading-relaxed">
+                    {project.summary}
+                  </p>
                 </div>
 
                 <div class="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2">

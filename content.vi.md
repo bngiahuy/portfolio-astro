@@ -88,29 +88,7 @@ Tôi đang tìm kiếm cơ hội phù hợp trong lĩnh vực Applied AI và Sof
 
 ---
 
-## 4. Các số liệu chính
-
-### Số liệu 1
-
-**Giá trị:** Khoảng 50
-
-**Nhãn:** Bài toán computer vision được tư vấn tại nhiều khu vực nhà máy
-
-### Số liệu 2
-
-**Giá trị:** 15 FPS
-
-**Nhãn:** Inference chỉ dùng CPU trên Intel Core i5 thế hệ 12
-
-### Số liệu 3
-
-**Giá trị:** 5 giây
-
-**Nhãn:** Latency trung bình ở chế độ nhanh trong demo nội bộ
-
----
-
-## 5. Giới thiệu
+## 4. Giới thiệu
 
 ### Tiêu đề phần
 
@@ -134,7 +112,7 @@ TP. Hồ Chí Minh, Việt Nam
 
 ---
 
-## 6. Dự án tiêu biểu
+## 5. Dự án tiêu biểu
 
 ### Tiêu đề phần
 
@@ -185,25 +163,30 @@ Tài liệu và hình ảnh công khai sẽ được bổ sung sau khi hoàn t�
 
 ---
 
-### Dự án 2: PoC Ứng dụng Thị giác Máy tính trong Nhà máy
+### Dự án 2: Ứng dụng Thị giác Máy tính trong Nhà máy Sản xuất Kem Lạnh
 
 **Nhãn hiển thị:** Nhóm 2 người | Customer PoC | Computer Vision
 
-**Tên dự án:** Ứng dụng Thị giác Máy tính trong Nhà máy
+**Tên dự án:** Ứng dụng Thị giác Máy tính trong Nhà máy Sản xuất Kem Lạnh
 
 **Mô tả ngắn:**
 
-Model là một phần của dự án. Các phần còn lại gồm làm rõ yêu cầu, thu thập dữ liệu, chất lượng camera, nén video, góc nhìn, triển khai và kiểm thử nhiều vòng tại hiện trường.
+PoC nhận diện logo chỉ rộng vài chục pixel trên thùng hàng qua hệ thống CCTV hiện hữu của khách hàng, với hai camera và server chỉ dùng CPU Intel Core i5 thế hệ 12.
 
 **Kết quả:**
 
-Pipeline inference chỉ dùng CPU duy trì 15 FPS trên Intel Core i5 thế hệ 12. Pilot không đạt yêu cầu sau khi điều kiện tại hiện trường làm tăng false detection.
+Server chỉ dùng CPU Intel Core i5 thế hệ 12 duy trì 15 FPS khi xử lý hai camera. Trong điều kiện thực tế, độ chính xác đạt ít nhất 83% và thời gian phản hồi dưới 150 ms; tuy nhiên, PoC không đạt yêu cầu độ chính xác tối thiểu 95%.
+
+**Ràng buộc:**
+
+- Bitrate tối đa 1024 Kbps, khá thấp và hình ảnh thường bị nhòe.
+- Chạy đồng thời hai camera Full HD, tối thiểu trên 5 FPS.
 
 **Nội dung case study mở rộng:**
 
 Tôi đã tư vấn gần 50 bài toán thị giác máy tính tại nhiều khu vực nhà máy và tham gia triển khai một PoC kiểm tra chất lượng từ đầu đến cuối. Công việc gồm thu thập yêu cầu, dữ liệu, huấn luyện model, xây dựng web app, triển khai trên Linux và điều chỉnh theo phản hồi của khách hàng.
 
-Chúng tôi kiểm tra chất lượng camera, nén video, góc nhìn và điều kiện môi trường để hiểu vì sao kết quả inference thay đổi giữa quá trình phát triển và môi trường nhà máy.
+Chúng tôi kiểm tra chất lượng camera, nén video, góc nhìn và điều kiện môi trường để hiểu hiệu năng khi triển khai thực tế. PoC đạt ít nhất 83% độ chính xác, thời gian phản hồi dưới 150 ms nhưng chưa đạt ngưỡng tối thiểu 95% theo yêu cầu.
 
 **Công nghệ:**
 
@@ -257,7 +240,7 @@ https://hpt.vn/san-pham-hpt/detail/hpt-smarttrak-nen-tang-thi-giac-ai-cho-an-nin
 
 ---
 
-## 7. Kinh nghiệm
+## 6. Kinh nghiệm
 
 ### Tiêu đề phần
 
@@ -299,7 +282,7 @@ https://hpt.vn/
 
 ---
 
-## 8. Kỹ năng
+## 7. Kỹ năng
 
 ### Tiêu đề phần
 
@@ -361,7 +344,7 @@ Công nghệ tôi đã sử dụng
 
 ---
 
-## 9. Học vấn
+## 8. Học vấn
 
 ### Tiêu đề phần
 
@@ -398,7 +381,7 @@ Học vấn
 
 ---
 
-## 10. Liên hệ
+## 9. Liên hệ
 
 ### Tiêu đề phần
 
@@ -438,7 +421,7 @@ Tải CV
 
 ---
 
-## 11. Footer
+## 10. Footer
 
 ### Họ tên
 
@@ -466,7 +449,7 @@ Kỹ sư Hệ thống AI tập trung vào Industrial AI và computer vision tạ
 
 ---
 
-## 12. Nhãn Hỗ trợ Truy cập và Giao diện
+## 11. Nhãn Hỗ trợ Truy cập và Giao diện
 
 ### Liên kết mạng xã hội
 
@@ -477,7 +460,7 @@ Kỹ sư Hệ thống AI tập trung vào Industrial AI và computer vision tạ
 ### Liên kết dự án
 
 - Xem case study Trợ lý AI cho Hỗ trợ Kỹ thuật
-- Xem case study Kiểm tra Công nghiệp bằng Thị giác Máy tính
+- Xem case study Ứng dụng Thị giác Máy tính trong Nhà máy Sản xuất Kem Lạnh
 - Xem case study HPT Smarttrak
 
 ### Thông báo liên kết ngoài
@@ -508,7 +491,7 @@ Tải CV PDF của Bùi Nguyễn Gia Huy
 
 ---
 
-## 13. Danh sách Cần Duyệt
+## 12. Danh sách Cần Duyệt
 
 - [ ] Viết lại những câu không giống cách tôi nói.
 - [ ] Xác nhận chức danh public là Kỹ sư Giải pháp AI và Phần mềm hay một chức danh khác.
