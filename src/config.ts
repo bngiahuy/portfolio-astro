@@ -24,6 +24,8 @@ export type Project = {
 };
 
 const common = {
+  siteUrl: "https://huybn.id.vn",
+  siteName: "Bui Nguyen Gia Huy",
   accentColor: "#1d4ed8",
   social: {
     email: "ghuy047@gmail.com",
@@ -38,7 +40,8 @@ export const siteConfigs = {
     ...common,
     name: "Bui Nguyen Gia Huy",
     title: "AI Systems Engineer | Industrial AI, Computer Vision & Edge",
-    description: "Portfolio of Bui Nguyen Gia Huy, a Software Solution Engineer working across applied AI, computer vision, backend development, and system integration.",
+    pageTitle: "Bui Nguyen Gia Huy — AI Systems Engineer | Industrial AI & Computer Vision",
+    description: "AI systems engineering across industrial computer vision, edge inference, AI assistants, backend integration, and deployment.",
     hero: {
       eyebrow: "Bui Nguyen Gia Huy · Software Solution Engineer",
       statement: "I build AI systems that have to survive outside the notebook.",
@@ -115,7 +118,8 @@ export const siteConfigs = {
     ...common,
     name: "Bùi Nguyễn Gia Huy",
     title: "Kỹ sư Hệ thống AI | Industrial AI, Computer Vision & Edge",
-    description: "Portfolio của Bùi Nguyễn Gia Huy, kỹ sư giải pháp phần mềm làm việc với applied AI, thị giác máy tính, backend và tích hợp hệ thống.",
+    pageTitle: "Bùi Nguyễn Gia Huy — Kỹ sư Hệ thống AI | Industrial AI & Computer Vision",
+    description: "Kỹ thuật hệ thống AI cho computer vision công nghiệp, edge inference, trợ lý AI, backend và tích hợp triển khai.",
     hero: {
       eyebrow: "Bùi Nguyễn Gia Huy · Kỹ sư Giải pháp Phần mềm",
       statement: "Tôi xây dựng các hệ thống AI phải hoạt động được ngoài môi trường notebook.",

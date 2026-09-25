@@ -9,20 +9,37 @@ import Footer from "../../components/Footer.astro";
 import { getSiteConfig } from "../../config";
 import "../../styles/global.css";
 const c = getSiteConfig("/vi/");
+const canonical = c.siteUrl + "/vi/";
+const englishUrl = c.siteUrl + "/";
+const vietnameseUrl = c.siteUrl + "/vi/";
 ---
+
 <html lang="vi">
   <head>
     <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={c.description} />
-    <meta property="og:title" content={`${c.name} - ${c.title}`} />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="en" href={englishUrl} />
+    <link rel="alternate" hreflang="vi" href={vietnameseUrl} />
+    <link rel="alternate" hreflang="x-default" href={englishUrl} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content={c.siteName} />
+    <meta property="og:title" content={c.pageTitle} />
     <meta property="og:description" content={c.description} />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="alternate" hreflang="en" href="/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={c.pageTitle} />
+    <meta name="twitter:description" content={c.description} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-    <title>{c.name} - {c.title}</title>
+    <title>{c.pageTitle}</title>
   </head>
-  <body><Header /><section><Hero /><About /><Projects /><Experience /><Education /></section><Footer /></body>
+  <body>
+    <Header />
+    <section><Hero /><About /><Projects /><Experience /><Education /></section>
+    <Footer />
+  </body>
 </html>
