@@ -11,23 +11,23 @@
 
 ### Tiêu đề trình duyệt
 
-Bùi Nguyễn Gia Huy | Kỹ sư Giải pháp AI và Phần mềm
+Bùi Nguyễn Gia Huy — Kỹ sư Hệ thống AI | Industrial AI & Computer Vision
 
 ### Meta description
 
-Portfolio của Bùi Nguyễn Gia Huy, kỹ sư giải pháp AI và phần mềm làm việc với Applied AI, backend, thị giác máy tính và tích hợp hệ thống.
+Kỹ thuật hệ thống AI cho computer vision công nghiệp, edge inference, trợ lý AI, backend và tích hợp triển khai.
 
 ### Tiêu đề khi chia sẻ trên mạng xã hội
 
-Bùi Nguyễn Gia Huy | Applied AI và Kỹ thuật Phần mềm
+Bùi Nguyễn Gia Huy — Kỹ sư Hệ thống AI | Industrial AI & Computer Vision
 
 ### Mô tả khi chia sẻ trên mạng xã hội
 
-Applied AI, backend và tích hợp hệ thống, từ khảo sát ban đầu đến triển khai và hỗ trợ vận hành.
+Kỹ thuật hệ thống AI cho computer vision công nghiệp, edge inference, trợ lý AI, backend và tích hợp triển khai.
 
 ### Alt text cho ảnh social preview
 
-Ảnh giới thiệu portfolio của Bùi Nguyễn Gia Huy, Kỹ sư Giải pháp AI và Phần mềm.
+Ảnh giới thiệu portfolio của Bùi Nguyễn Gia Huy, Kỹ sư Hệ thống AI tập trung vào Industrial AI và computer vision.
 
 ---
 
@@ -64,23 +64,23 @@ Chọn ngôn ngữ
 
 ### Dòng giới thiệu ngắn
 
-Giải pháp AI | Kỹ thuật Phần mềm
+Kỹ sư Hệ thống AI | Industrial AI, Computer Vision & Edge
 
 ### Tiêu đề chính
 
-Tôi xây dựng và tích hợp các hệ thống AI cho môi trường vận hành của khách hàng.
+Tôi xây dựng các hệ thống AI phải hoạt động được ngoài môi trường notebook.
 
 ### Đoạn giới thiệu
 
-Công việc của tôi không dừng ở model. Nó còn bao gồm vị trí đặt camera, phần cứng edge có giới hạn, backend, phối hợp với vendor, triển khai và hỗ trợ vận hành. Tôi kết nối các phần này và bảo đảm toàn bộ hệ thống hoạt động ổn định trong môi trường triển khai.
+Từ yêu cầu còn mơ hồ của khách hàng đến kiến trúc, tích hợp backend, edge inference, triển khai và xử lý sự cố tại hiện trường.
 
 ### Nút chính
 
-Xem các dự án của tôi
+Xem dự án
 
 ### Nút phụ
 
-Liên hệ với tôi
+Tải CV
 
 ### Trạng thái tìm việc
 
@@ -94,19 +94,19 @@ Tôi đang tìm kiếm cơ hội phù hợp trong lĩnh vực Applied AI và Sof
 
 **Giá trị:** Khoảng 50
 
-**Nhãn:** Bài toán thị giác máy tính đã khảo sát cùng các đội ngũ tại nhà máy
+**Nhãn:** Bài toán computer vision được tư vấn tại nhiều khu vực nhà máy
 
 ### Số liệu 2
 
 **Giá trị:** 15 FPS
 
-**Nhãn:** Trên pipeline kiểm tra chỉ dùng CPU Intel Core i5 thế hệ 12
+**Nhãn:** Inference chỉ dùng CPU trên Intel Core i5 thế hệ 12
 
 ### Số liệu 3
 
 **Giá trị:** 5 giây
 
-**Nhãn:** Thời gian phản hồi trung bình của chế độ nhanh trong quá trình kiểm thử nội bộ
+**Nhãn:** Latency trung bình ở chế độ nhanh trong demo nội bộ
 
 ---
 
@@ -118,7 +118,7 @@ Về tôi
 
 ### Nội dung chính
 
-Tôi là kỹ sư giải pháp AI và phần mềm, hiện làm việc tại HPT Vietnam Corporation ở TP. Hồ Chí Minh. Công việc của tôi thường bắt đầu từ một vấn đề chưa được mô tả đầy đủ: quy trình của khách hàng chưa khớp với sản phẩm, luồng camera hoạt động khác khi đưa ra hiện trường, hoặc một bài toán tích hợp đi qua nhiều hệ thống và đội ngũ.
+Tôi là Kỹ sư Giải pháp Phần mềm tại HPT Vietnam Corporation ở TP. Hồ Chí Minh, tập trung vào applied AI và kỹ thuật hệ thống. Công việc của tôi thường bắt đầu từ một vấn đề chưa được mô tả đầy đủ: quy trình của khách hàng chưa khớp với sản phẩm, luồng camera hoạt động khác khi đưa ra hiện trường, hoặc một bài toán tích hợp đi qua nhiều hệ thống và đội ngũ.
 
 Tôi tham gia toàn bộ quá trình triển khai, từ khảo sát, thiết kế kiến trúc đến phát triển backend, triển khai, xử lý lỗi và hỗ trợ vận hành. Tôi làm việc với model và API, nhưng cũng thường xuyên xử lý máy chủ Linux, luồng RTSP, giới hạn mạng và việc phối hợp với vendor. Những chi tiết này thường quyết định hệ thống có vận hành ổn định trong môi trường thực tế hay không.
 
@@ -156,13 +156,13 @@ Tài liệu hỗ trợ kỹ thuật nằm ở nhiều nguồn khác nhau, khiế
 
 **Kết quả:**
 
-Trong quá trình kiểm thử nội bộ, chế độ nhanh phản hồi trung bình trong khoảng 5 giây. Chế độ agent mất từ 20 đến 30 giây khi câu hỏi cần quy trình truy xuất sâu hơn.
+Trong demo nội bộ, chế độ nhanh phản hồi trung bình trong khoảng 5 giây.
 
 **Nội dung case study mở rộng:**
 
 Tôi thực hiện toàn bộ dự án với vai trò thành viên duy nhất. Hệ thống kết hợp xử lý tài liệu, các thành phần retrieval, LLM API, logic ứng dụng và backend FastAPI. Tôi sử dụng hybrid retrieval, multimodal RAG, reranking và agentic workflow để xử lý nhiều loại câu hỏi mà không để thời gian phản hồi trở nên quá dài.
 
-Kết quả kiểm thử nội bộ ghi nhận thời gian phản hồi khoảng 5 giây ở chế độ nhanh và từ 20 đến 30 giây ở chế độ agent.
+Demo nội bộ ghi nhận thời gian phản hồi trung bình khoảng 5 giây ở chế độ nhanh.
 
 **Công nghệ:**
 
@@ -197,7 +197,7 @@ Model là một phần của dự án. Các phần còn lại gồm làm rõ yê
 
 **Kết quả:**
 
-Pipeline inference chỉ dùng CPU đạt 20 FPS trên Intel Core i5 thế hệ 12. Trong giai đoạn PoC, model đạt accuracy trên 92% và recall trên 90%. Tuy nhiên, pilot không đạt yêu cầu vì bitrate, khả năng thu sáng của camera và sự xuất hiện của các vật thể ngoài dữ liệu huấn luyện làm tăng số trường hợp nhận diện sai.
+Pipeline inference chỉ dùng CPU duy trì 15 FPS trên Intel Core i5 thế hệ 12. Pilot không đạt yêu cầu sau khi điều kiện tại hiện trường làm tăng false detection.
 
 **Nội dung case study mở rộng:**
 
@@ -234,11 +234,11 @@ Chúng tôi kiểm tra chất lượng camera, nén video, góc nhìn và điề
 
 **Mô tả ngắn:**
 
-Tôi phát triển backend cho sản phẩm, gồm business logic, API và các tính năng theo lộ trình. Tôi cũng fine-tune model AI, triển khai hệ thống và xây dựng kế hoạch backup và restore.
+Tôi phát triển backend API tích hợp sự kiện từ camera nhận diện khuôn mặt với hệ thống kiểm soát ra vào, đồng thời fine-tune model object detection cho các use case khách hàng bổ sung.
 
 **Kết quả:**
 
-Giải pháp đang được đăng ký Quyền sở hữu trí tuệ.
+Tôi đóng góp phần backend API tích hợp sự kiện nhận diện khuôn mặt với kiểm soát ra vào và fine-tune model object detection cho use case khách hàng bổ sung.
 
 **Công nghệ:**
 
@@ -388,7 +388,7 @@ Học vấn
 
 **Chương trình:** Cử nhân Khoa học Máy tính
 
-**Thời gian:** 2020 đến 2025
+**Thời gian:** 2020 đến 2024
 
 **Địa điểm:** TP. Hồ Chí Minh, Việt Nam
 
@@ -446,11 +446,11 @@ Bùi Nguyễn Gia Huy
 
 ### Vai trò
 
-Kỹ sư Giải pháp AI và Phần mềm
+Kỹ sư Hệ thống AI
 
 ### Dòng kết
 
-Kỹ sư Giải pháp AI và Phần mềm tại TP. Hồ Chí Minh, Việt Nam.
+Kỹ sư Hệ thống AI tập trung vào Industrial AI và computer vision tại TP. Hồ Chí Minh, Việt Nam.
 
 ### Bản quyền
 

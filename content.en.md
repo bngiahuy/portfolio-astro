@@ -11,23 +11,23 @@
 
 ### Browser title
 
-Bui Nguyen Gia Huy | AI Solutions & Software Engineer
+Bui Nguyen Gia Huy — AI Systems Engineer | Industrial AI & Computer Vision
 
 ### Meta description
 
-Portfolio of Bui Nguyen Gia Huy, an AI solutions and software engineer building applied AI, backend, computer-vision, and system-integration projects.
+AI systems engineering across industrial computer vision, edge inference, AI assistants, backend integration, and deployment.
 
 ### Social preview title
 
-Bui Nguyen Gia Huy | Applied AI and Software Engineering
+Bui Nguyen Gia Huy — AI Systems Engineer | Industrial AI & Computer Vision
 
 ### Social preview description
 
-Applied AI, backend engineering, and system integration, from early discovery through deployment and production support.
+AI systems engineering across industrial computer vision, edge inference, AI assistants, backend integration, and deployment.
 
 ### Social preview image alt text
 
-Portfolio preview for Bui Nguyen Gia Huy, AI Solutions and Software Engineer.
+Portfolio preview for Bui Nguyen Gia Huy, AI Systems Engineer focused on industrial AI and computer vision.
 
 ---
 
@@ -64,23 +64,23 @@ Skip to main content
 
 ### Eyebrow
 
-AI Solutions | Software Engineering
+AI Systems Engineer | Industrial AI, Computer Vision & Edge
 
 ### Headline
 
-I build and integrate AI systems for customer environments.
+I build AI systems that have to survive outside the notebook.
 
 ### Introduction
 
-My work goes beyond the model. It includes camera placement, limited edge hardware, backend services, vendor coordination, deployment, and production support. I bring those parts together and make sure the complete system works in its intended environment.
+From ambiguous customer requirements to architecture, backend integration, edge inference, deployment, and field debugging.
 
 ### Primary call to action
 
-See what I’ve built
+View work
 
 ### Secondary call to action
 
-Let’s talk
+Résumé
 
 ### Availability
 
@@ -94,19 +94,19 @@ I am open to suitable opportunities in Applied AI and Software Engineering.
 
 **Value:** ~50
 
-**Label:** Computer-vision use cases explored with factory teams
+**Label:** Computer-vision use cases consulted across factory sites
 
 ### Proof point 2
 
-**Value:** 20 FPS
+**Value:** 15 FPS
 
-**Label:** On a CPU-only inspection pipeline running on a 12th-generation Intel Core i5
+**Label:** CPU-only inference on a 12th-generation Intel Core i5
 
 ### Proof point 3
 
 **Value:** 5 seconds
 
-**Label:** Average response time in the AI assistant’s fast mode during internal testing
+**Label:** Average fast-mode latency in the internal demo
 
 ---
 
@@ -118,7 +118,7 @@ About me
 
 ### Main copy
 
-I’m an AI solutions and software engineer at HPT Vietnam Corporation in Ho Chi Minh City. My work often starts with a problem that is not fully defined: a customer workflow that does not fit the product, a camera feed that behaves differently on site, or an integration that crosses several systems and teams.
+I’m a Software Solution Engineer at HPT Vietnam Corporation in Ho Chi Minh City, focused on applied AI and systems engineering. My work often starts with a problem that is not fully defined: a customer workflow that does not fit the product, a camera feed that behaves differently on site, or an integration that crosses several systems and teams.
 
 I work across the full delivery process, from discovery and architecture to backend development, deployment, debugging, and support. I spend time with models and APIs, but also with Linux servers, RTSP streams, network constraints, and vendor coordination. Those details often determine whether a system works reliably in its intended environment.
 
@@ -197,7 +197,7 @@ The model was one part of the project. The rest involved requirements, data coll
 
 **Outcome:**
 
-A CPU-only inference pipeline sustained 20 FPS on a 12th-generation Intel Core i5. During the PoC, the model achieved accuracy above 92% and recall above 90%. The pilot did not meet its requirements because bitrate, low-light camera performance, and objects outside the training data increased false detections.
+A CPU-only inference pipeline sustained 15 FPS on a 12th-generation Intel Core i5. The field pilot did not meet its requirements after on-site conditions increased false detections.
 
 **Extended case-study copy:**
 
@@ -234,15 +234,15 @@ We investigated camera quality, video compression, viewing perspective, and envi
 
 **Short description:**
 
-I developed backend business logic, APIs, and product features based on the product roadmap. I also fine-tuned AI models, deployed the system, and planned backup and restore procedures.
+I implemented backend APIs integrating face-recognition camera events with physical access control and fine-tuned custom object-detection models for additional customer use cases.
 
 **Outcome:**
 
-The solution is being registered for intellectual property protection.
+My contribution covered backend API integration and custom object-detection model fine-tuning.
 
 **Extended case-study copy:**
 
-My main responsibility was backend development, including business logic, APIs, and features planned for the product. The role also included fine-tuning AI models, deployment work, and backup and restore planning.
+I contributed backend APIs integrating face-recognition camera events with physical access control and fine-tuned custom object-detection models for additional customer use cases.
 
 **Technology labels:**
 
@@ -398,7 +398,7 @@ Education
 
 **Degree:** Bachelor of Computer Science
 
-**Date range:** 2020–2025
+**Date range:** 2020–2024
 
 **Location:** Ho Chi Minh City, Vietnam
 
@@ -444,7 +444,7 @@ Download résumé
 
 ### Resume download file
 
-`Nash/Bui_Nguyen_Gia_Huy_SWE.pdf`
+`public/bui-nguyen-gia-huy-resume.pdf`
 
 ---
 
@@ -456,11 +456,11 @@ Bui Nguyen Gia Huy
 
 ### Role
 
-AI Solutions & Software Engineer
+AI Systems Engineer | Industrial AI, Computer Vision & Edge
 
 ### Closing line
 
-AI Solutions & Software Engineer based in Ho Chi Minh City, Vietnam.
+AI Systems Engineer focused on industrial AI and computer vision, based in Ho Chi Minh City, Vietnam.
 
 ### Copyright
 
@@ -521,7 +521,7 @@ Download Bui Nguyen Gia Huy’s résumé as a PDF
 ## 13. Final Review Checklist
 
 - [ ] Rewrite any sentence that does not sound like me.
-- [ ] Confirm whether the public title should be AI Solutions & Software Engineer or another title.
+- [ ] Confirm that the AI Systems Engineer positioning accurately reflects my work.
 - [ ] Confirm project confidentiality and publication permissions.
 - [ ] Add public links, screenshots, demos, or sanitized architecture diagrams where available.
 - [ ] Remove skills I do not want positioned as current strengths.
