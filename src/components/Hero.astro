@@ -5,7 +5,7 @@ const siteConfig = getSiteConfig(Astro.url.pathname);
 
 <div
   id="hero"
-  class="relative isolate overflow-hidden bg-white py-24 md:h-screen"
+  class="relative isolate overflow-hidden bg-white py-12 sm:py-16 md:py-24"
   style={`--accent-color: ${siteConfig.accentColor}`}
 >
   <!-- Gradient overlay -->
@@ -123,46 +123,75 @@ const siteConfig = getSiteConfig(Astro.url.pathname);
       fill="url(#programming-symbols)"
       width="100%"
       height="100%"
-      opacity="0.2"></rect>
+      opacity="0.05"></rect>
     <rect
       fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)"
       width="100%"
       height="100%"
       stroke-width={0}></rect>
   </svg>
-  <div class="h-full mx-auto p-8 sm:p-12 md:p-24 flex items-center">
-    <div>
-      <h2
-        class="text-pretty text-xl sm:text-2xl md:text-5xl font-bold tracking-tight text-gray-700 animate-fade-in"
-      >
-        {siteConfig.greeting}
-      </h2>
+  <div class="mx-auto max-w-7xl p-6 sm:p-10 md:p-16 lg:p-24">
+    <div class="max-w-5xl">
+      <p class="text-sm sm:text-base font-medium text-gray-600 animate-fade-in">
+        {siteConfig.hero.eyebrow}
+      </p>
       <h1
-        class="mt-6 sm:mt-8 md:mt-10 text-pretty text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold tracking-tight text-gray-800 animate-fade-in animation-delay-200"
+        class="mt-5 text-pretty text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-gray-900 animate-fade-in animation-delay-200"
       >
-        {siteConfig.labels.intro} <span style={{ color: siteConfig.accentColor }}
-          >{siteConfig.name}</span
-        >
+        {siteConfig.hero.statement}
       </h1>
       <p
-        class="mt-4 sm:mt-6 md:mt-8 text-pretty text-base sm:text-lg md:text-xl/8 font-medium text-gray-600 animate-fade-in animation-delay-400"
+        class="mt-5 max-w-3xl text-pretty text-base sm:text-lg md:text-xl leading-relaxed text-gray-600 animate-fade-in animation-delay-400"
       >
+        {siteConfig.hero.supporting}
+      </p>
+      <p class="mt-4 text-sm sm:text-base font-semibold text-gray-700">
         {siteConfig.title}
       </p>
+      <div class="mt-7 flex flex-wrap gap-3">
+        <a
+          href="#projects"
+          class="inline-flex min-h-12 items-center justify-center rounded-lg px-5 py-3 font-semibold text-white transition-colors hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent-color)]"
+          style={{ backgroundColor: siteConfig.accentColor }}
+        >
+          {siteConfig.hero.primaryCta}
+        </a>
+        <a
+          href="/bui-nguyen-gia-huy-resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex min-h-12 items-center justify-center rounded-lg border border-gray-300 bg-white/80 px-5 py-3 font-semibold text-gray-800 transition-colors hover:bg-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent-color)]"
+        >
+          {siteConfig.hero.secondaryCta}
+        </a>
+      </div>
+      <dl class="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-3">
+        {siteConfig.proofMetrics.map((metric) => (
+          <div class="min-w-0 border-l-2 border-gray-200 pl-4">
+            <dt class="text-2xl sm:text-3xl font-bold text-gray-900">
+              {metric.value}
+            </dt>
+            <dd class="mt-1 text-sm leading-relaxed text-gray-600">
+              {metric.label}
+            </dd>
+          </div>
+        ))}
+      </dl>
     </div>
   </div>
   <div
-    class="absolute bottom-0 left-0 right-0 p-8 sm:p-12 md:p-24 flex gap-x-4 sm:gap-x-6 md:gap-x-8 text-gray-700 animate-fade-in animation-delay-600"
+    class="mx-auto -mt-4 max-w-7xl px-6 sm:px-10 md:px-16 lg:px-24 pb-4 flex gap-x-2 sm:gap-x-3 text-gray-700 animate-fade-in animation-delay-600"
   >
     {
       siteConfig.social?.email && (
         <a
           href={`mailto:${siteConfig.social.email}`}
           aria-label="Email"
-          class="transition-colors duration-300 hover:text-[var(--accent-color)]"
+          class="grid min-h-11 min-w-11 place-items-center rounded transition-colors duration-300 hover:text-[var(--accent-color)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent-color)]"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
             width="24"
             height="24"
             viewBox="0 0 24 24"
@@ -187,10 +216,11 @@ const siteConfig = getSiteConfig(Astro.url.pathname);
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
-          class="transition-colors duration-300 hover:text-[var(--accent-color)]"
+          class="grid min-h-11 min-w-11 place-items-center rounded transition-colors duration-300 hover:text-[var(--accent-color)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent-color)]"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
             width="24"
             height="24"
             viewBox="0 0 24 24"
@@ -220,10 +250,11 @@ const siteConfig = getSiteConfig(Astro.url.pathname);
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Twitter"
-          class="transition-colors duration-300 hover:text-[var(--accent-color)]"
+          class="grid min-h-11 min-w-11 place-items-center rounded transition-colors duration-300 hover:text-[var(--accent-color)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent-color)]"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
             width="24"
             height="24"
             viewBox="0 0 24 24"
@@ -250,10 +281,11 @@ const siteConfig = getSiteConfig(Astro.url.pathname);
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
-          class="transition-colors duration-300 hover:text-[var(--accent-color)]"
+          class="grid min-h-11 min-w-11 place-items-center rounded transition-colors duration-300 hover:text-[var(--accent-color)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent-color)]"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
             width="24"
             height="24"
             viewBox="0 0 24 24"
