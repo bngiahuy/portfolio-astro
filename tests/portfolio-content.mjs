@@ -26,6 +26,8 @@ assert.ok(english.includes('href="/vi/"'));
 assert.ok(vietnamese.includes('href="/"'));
 assert.ok(english.includes('href="/bui-nguyen-gia-huy-resume.pdf"'));
 assert.ok(vietnamese.includes('href="/bui-nguyen-gia-huy-resume.pdf"'));
+assert.match(english, /<a href="https:\/\/blog\.huybn\.id\.vn"[^>]*>Blogs<\/a>/, "header links to the blog");
+assert.match(vietnamese, /<a href="https:\/\/blog\.huybn\.id\.vn"[^>]*>Blogs<\/a>/, "header links to the blog");
 assert.match(english, /id="programming-symbols"/);
 assert.match(vietnamese, /id="programming-symbols"/);
 

@@ -58,6 +58,14 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
         )
       }
       <li>
+        <a
+          href={siteConfig.blogUrl}
+          class="inline-flex min-h-11 items-center rounded px-1 text-xs sm:text-sm md:text-base text-gray-700 hover:text-black transition-colors font-medium focus-visible:outline-2 focus-visible:outline-offset-2"
+        >
+          {siteConfig.labels.blog}
+        </a>
+      </li>
+      <li>
         <a href={siteConfig.alternatePath} class="inline-flex min-h-11 items-center rounded px-1 text-xs sm:text-sm md:text-base text-gray-700 hover:text-black transition-colors font-medium focus-visible:outline-2 focus-visible:outline-offset-2">
           {siteConfig.alternateLabel}
         </a>
